@@ -1,5 +1,5 @@
-pull_policy: build
-FROM node:18.17.1-bookworm:companion-builder
+pull_policy: build \
+FROM node:18.17.1-bookworm as companion-builder
 
 # Installation Prep
 RUN apt-get update && apt-get install -y \
