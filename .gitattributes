@@ -1,3 +1,5 @@
+pull_policy: build
+
 FROM node:18.17.1-bullseye as companion-builder
 
 # Installation Prep
